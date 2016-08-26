@@ -61,7 +61,7 @@
           /* edi */ { "sType": "html", "fnRender": renderReg, "bSearchable": false },
           /* URL */ { "sType": "html", "bSearchable": false, "fnRender": function (oObj) {
                 if(oObj.aData[19] != "")
-                  return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[19]+"#L"+oObj.aData[20]+"'>"+oObj.aData[19]+":"+oObj.aData[20]+"</a>";
+                  return "<a target='_blank' href='http://lxr.free-electrons.com/source/"+oObj.aData[19]+"?v=4.7.2#L"+oObj.aData[20]+"'>"+oObj.aData[19]+":"+oObj.aData[20]+"</a>";
                 else
                   return oObj.aData[9];
               }
@@ -107,7 +107,7 @@
     </div>
     <div id="footer" class="site">
       <h4 class="chunk">
-        Generated from Linux kernel 4.4.2 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>,
+        Generated from Linux kernel 4.7.2 using <a target="_blank" href="http://ctags.sourceforge.net/">Exuberant Ctags</a>,
         <a target="_blank" href="http://www.python.org/">Python</a>, and
         <a target="_blank" href="http://www.datatables.net/">DataTables</a>.
         <br>
